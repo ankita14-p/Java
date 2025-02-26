@@ -11,8 +11,10 @@ class datatype
    {
      double num1=5.8999999;
      float num2=7.88f; //explicitly mention that it is float
-     long lnum=78999999999l; //explicitly mention that it is long
-     boolean flag=true;
+     long lnum=0b1011101l; //explicitly mention that it is long also binary will get converted to decimal
+     System.out.println(lnum);
+     int num3 = 0x7E; //hexadecimal to decimal
+     System.out.println(num3);
      double result=num1+num2;
      System.out.println(result);
    }
